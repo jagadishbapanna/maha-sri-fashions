@@ -1,16 +1,79 @@
-# React + Vite
+# Maha Sri Fashions 🛍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack business website built for a home-based saree and jewellery business.  
+Customers can browse products and place orders easily via WhatsApp, while the admin can manage products through a secure dashboard.
 
-Currently, two official plugins are available:
+🔗 **Live Website**: https://maha-sri-fashions.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Customer Side
+- Browse sarees and jewellery collections
+- View product details with images and prices
+- One-click **Order on WhatsApp** with auto-filled product details
+- Mobile-friendly responsive design
 
-## Expanding the ESLint configuration
+### Admin Side
+- Secure admin login
+- Add new products
+- Upload product images
+- Edit product name, price, image
+- Delete products
+- Toggle product stock (In Stock / Out of Stock)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+- **React JS** – component-based UI
+- **Tailwind CSS** – responsive styling
+
+### Backend / Services
+- **Firebase Firestore** – product database
+- **Firebase Authentication** – admin login
+- **Cloudinary** – image upload & hosting
+- **WhatsApp API** – order messaging
+
+### Deployment
+- **Vercel** – production deployment with HTTPS
+
+---
+
+## 🧠 Why These Technologies Were Chosen
+
+- **React**: Fast, scalable, and industry-standard frontend
+- **Firebase**: No backend server required, easy CRUD operations
+- **Cloudinary**: Free image hosting without Firebase Storage upgrade
+- **WhatsApp**: Simple ordering for non-technical customers
+- **Vercel**: Free, fast, and easy deployment
+
+---
+
+## 🔐 Security
+- Firestore rules restrict write access to admin only
+- Admin panel is not publicly shared
+- No sensitive keys exposed in the repository
+
+---
+
+## 📷 Project Documentation
+Detailed project explanation (for technical & non-technical users):  
+📄 *See attached PDF in repository*
+
+---
+
+## 🚀 Future Enhancements
+- SEO & Google indexing
+- Custom domain (mahasrifashions.com)
+- Payment gateway integration
+- Order management system
+- Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+**Jagadish Bapanna**  
+Fresher | Full-Stack Developer  
