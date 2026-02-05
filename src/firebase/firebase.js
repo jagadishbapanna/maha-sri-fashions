@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyARuJW4Q2Nu9eoDyvNEZgzeb4J44t1r5qI",
-  authDomain: "maha-sri-fashions.firebaseapp.com",
-  projectId: "maha-sri-fashions",
-  storageBucket: "maha-sri-fashions.firebasestorage.app",
-  messagingSenderId: "31022518138",
-  appId: "1:31022518138:web:54a185326ce855c2e790c3"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
